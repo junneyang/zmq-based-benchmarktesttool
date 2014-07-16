@@ -11,6 +11,8 @@ ZMQ-based-benchmarktesttool
 * 跨语言、跨平台，可使用python快速原型验证之后扩展为其他语言，支持C++, C#, CL, Delphi, Erlang, F#, Felix, Haskell, Java, Objective-C, Ruby, Ada, Basic, Clojure, Go, Haxe, Node.js, ooc, Perl, and Scala等几乎所有语言。
 * 高性能，使用工具demo测试用户偏好http接口，QPS约15000左右，截图如下：    
 ![image](screenshot/001.png) 
+* 相同模型，不接入http，只发送32字节消息，QPS约22万：    
+![image](screenshot/002.png) 
 
      
 初步demo开发完成，后续逐步完善...
